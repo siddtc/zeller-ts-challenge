@@ -17,7 +17,6 @@ interface PricingRule {
   apply: (items: string[]) => number;
 }
 
-// Define the pricing rules
 // Decoupling the pricing rule as it can be anything in the future...
 const pricingRules: PricingRule[] = [
   {
